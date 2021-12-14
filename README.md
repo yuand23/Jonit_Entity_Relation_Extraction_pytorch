@@ -1,1 +1,4 @@
-# Jonit_Entity_Relation_Extraction_pytorch
+# 实体关系联合抽取模型
+实体抽取使用bert+crf进行序列标注。  
+将抽取出的实体进行组合，预测每一对组合存在何种关系（包括不存在关系）。实体嵌入表达取token_span的平均。
+
